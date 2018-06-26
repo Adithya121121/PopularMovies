@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string-array name="sort_order" >
+        <item>Latest Movies</item>
+        <item>Top Rated</item>
+        <item>Most Popular</item>
+        <item>Highest Rated</item>
+    </string-array>
+    <string name="title_activity_settings">Change Sort Order</string>
+    <string name="title_activity_details">Details</string>
+    <string name="pref_popular_name">Popular</string>
+    <string name="pref_top_rated_name">Top Rated</string>
+    <string name="pref_sort_order_title">Sort order</string>
+
+    <string name="header_title">Title</string>
+    <string name="header_vote_average">User rating</string>
+    <string name="header_release_date">Release date</string>
+    <string name="header_overview">Plot synopsis</string>
+    <string name="toast_no_internet_connection">Still no Internet connection. Please try again.</string>
+    <string name="button_retry">RETRY</string>
+    <string name="overview_not_available">Not available</string>
+    <string name="no_internet_connection">No Internet connection</string>
+
+    <!-- Do not translate -->
+    <string name="pref_sort_order_key" translatable="false">sort_order</string>
+    <string name="pref_popular_value" translatable="false">popular_value</string>
+    <string name="pref_top_rated_value" translatable="false">top_rated_value</string>
+    <string-array name="pref_sort_order_names">
+        <item>@string/pref_popular_name</item>
+        <item>@string/pref_top_rated_name</item>
+    </string-array>
+
+    <string-array name="pref_sort_order_values">
+        <item>@string/pref_popular_value</item>
+        <item>@string/pref_top_rated_value</item>
+    </string-array>
+</resources>
